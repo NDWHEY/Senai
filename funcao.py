@@ -20,10 +20,10 @@ saida = float(input("Digite o horário de saída: "))
 
 def subtracao(entrada, saida):
 
-
+    duracao = saida - entrada
     
-    if subtracao >= 8:
-        print("Vocêbateu a carga horária")
+    if duracao >= 8:
+        print("Você bateu a carga horária")
     else:
         print(" você não bateu a carga minima de 8h")
 
