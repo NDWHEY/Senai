@@ -57,3 +57,5 @@ def e_commerce():
 
 while True:
       e_commerce()
+
+v = input("Digite enter para sair")
